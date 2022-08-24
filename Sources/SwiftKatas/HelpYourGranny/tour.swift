@@ -48,7 +48,7 @@ class Pair<T> {
     }
 }
 
-extension Collection {
+private extension Collection {
     /**
      Split the Collection into pairs:
      [a, b, c, d, e] -> [(a, b), (b, c), (c, d), (d, e)]
